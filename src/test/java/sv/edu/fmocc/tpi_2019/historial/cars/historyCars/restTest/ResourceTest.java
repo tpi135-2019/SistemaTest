@@ -24,7 +24,7 @@ public abstract class ResourceTest<T> {
 //    protected abstract String getUrl();
 
     WebTarget target;
-    String URL_BASE = "http://localhost:8989/HistoryCars/webresources/";
+    String URL_BASE = "http://192.168.43.211:8989/HistoryCars/webresources/";
     Client cliente;
 
     public ResourceTest() {
